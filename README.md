@@ -5,4 +5,12 @@
 pip install moviepy
 </pre>
 <h1>How to use</h1>
-![img1-git](https://github.com/guilhermeotto2/extract-audio-from-video/assets/131212950/8d3da2fa-3953-4eb9-a4c3-fa0317daf173)
+<p>You need put an mp4 video in the folder of you cloned this repo</p>
+<p>So, you need run "main.py" and select the name of mp3 archive that the program will generate</p>
+<pre>
+Reading mp4 archive
+-------------------
+Enter the new name for the MP3 file (without the .mp3 extension) for the video.mp4: SONG
+</pre>
+<p>Finally, the archive mp3 will be in your paste</p>
+<p>Hope i help you :)</p>
