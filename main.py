@@ -9,11 +9,10 @@ for video in lista_mp4:
     print('-'*10)
     mp4 = VideoFileClip(os.path.join(video))
 
-    # Ask the user for the desired MP3 file name
     novo_nome = input(f"Digite o novo nome para o arquivo MP3 (sem a extensão .mp3) do vídeo {video}: ")
 
-    nome_mp3 = novo_nome + '.mp3'  # Use the user-provided name for the MP3 file
-
+    nome_mp3 = novo_nome + '.mp3'
+    
     print('Convertendo para mp3')
     http://mp4.audio.write_audiofile(os.path.join(nome_mp3))
     print('-'*20)
